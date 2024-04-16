@@ -1,3 +1,4 @@
+import FileUpload from "@/components/ui/FileUpload";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
@@ -19,8 +20,7 @@ export default async function Home() {
             Uplaod any pdf to get answers to your questions
           </p>
           <div className="w-full mt-4">
-            <h1> FileUpload </h1>
-            {/* <FileUpload /> */}
+            <FileUpload />
           </div>
         </div>
       </div>
